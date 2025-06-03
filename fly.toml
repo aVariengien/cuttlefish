@@ -1,0 +1,15 @@
+# fly.toml app configuration file generated for cuttlefish-empty-log-223 on 2025-06-03T14:12:20+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'cuttlefish-empty-log-223'
+primary_region = 'ams'
+
+[processes]
+  app = "python bot.py"
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

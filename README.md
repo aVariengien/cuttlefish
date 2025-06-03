@@ -1,4 +1,6 @@
 # 🦑 Cuttlefish Telegram Bot
+![Cuttlefish Logo](cuttlefish.jpg)
+
 
 A Telegram bot to use Runware image generation API on mobile, built with Python and can be deployed on Fly.io. This project uses the `python-telegram-bot` library along with other dependencies to provide Telegram bot functionality.
 
